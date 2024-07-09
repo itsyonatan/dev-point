@@ -1,8 +1,10 @@
 import React from 'react';
 import images from "../../constants/images";
 import "./AboutUs.css";
+import { Element } from 'react-scroll';
 
 const AboutUs = () => (
+    <Element name="about">
     <div className='about section__padding'>
         <div className='container'>
             <div className='about__content text__center'>
@@ -12,6 +14,7 @@ const AboutUs = () => (
             </div>
         </div>
     </div>
+    </Element>
 )
 
 export default AboutUs;
